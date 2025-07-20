@@ -1,0 +1,551 @@
+@import url('reset.css');
+
+body{
+	font-family: Arial;
+	font-size: 14px;
+	color: #86878b;
+	line-height: 1.6;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.orangeLine{
+	display: block;
+	width: 64px;
+	height: 2px;
+	background-color: #ff8b38;
+}
+
+.wrapper{
+	width: 1472px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+/*------------- 天長條 --------------*/
+
+
+.top img{
+	width: 150px;
+	float: left;
+
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.top ul{
+	float: right;
+	margin-right: 130px;
+}
+
+.top li{
+	float: left;
+}
+
+.top li a{
+	color: white;
+	display: block;
+	line-height: 70px;
+	padding: 0 20px;
+}
+
+.top li a:hover{
+	color: #ff0000;
+}
+
+/*------------- 主視覺大圖 --------------*/
+.header{
+	background-image: url(../img/main_pic_test.JPG);
+	height: 800px;
+	width: 1472px;
+	background-repeat: no-repeat;
+} 
+
+.header img{
+	margin-top: 110px;
+	margin-left: 150px;
+	height: 640px;
+	
+}
+
+.header h1{
+	color: white;
+	margin-left: 150px;
+	font-weight: normal;
+}
+
+.header span{
+	display: block;
+	width: 65px;
+	height: 2px;
+	background-color: #fff;
+	margin-left: 20px;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.header p{
+	margin: 75px;
+	color: #fff;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+
+
+
+/*------------- 品牌故事 --------------*/
+
+.brandstory{
+	background-color: #eceaeaa8;
+}
+
+.brandstory h3{
+	text-align: center;
+	font-size: 25px;
+}
+.brandstory p{
+	text-align: center;
+	font-size: 16px;
+}
+.brandstory a{
+	font-size: 16px;
+	display: block;
+	margin: 0 auto;
+	line-height: 40px;
+	width: 130px;
+	color: rgb(219, 41, 41);
+	text-align: center;
+	border: 2px solid rgb(177, 50, 50);
+}
+
+.brandstory a:hover{
+
+	background-color: #d93535;
+	color: #fff;
+}
+
+
+
+
+
+
+
+/*------------- 社群網站區塊 --------------*/
+.socialMedia{
+	height: 105px;
+	padding: 0 150px;
+}
+
+.socialMedia h3{
+	font-size: 20px;
+	color: #333;
+	padding-top: 15px;
+}
+
+.socialMedia p{}
+
+.socialMedia ul{
+	float: right;
+	padding-top: 30px;
+}
+
+.socialMedia li{
+	float: left;
+	margin-left: 50px;
+}
+
+.socialMedia a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-image: url(../img/social_media_icons_big.png);
+}
+
+.socialMedia .media1 a{ background-position: 0 0; }
+.socialMedia .media2 a{ background-position: 0 -50px; }
+.socialMedia .media3 a{ background-position: 0 -100px; }
+.socialMedia .media4 a{ background-position: 0 -150px; }
+.socialMedia .media5 a{ background-position: 0 -200px; }
+.socialMedia .media6 a{ background-position: 0 -250px; }
+.socialMedia .media7 a{ background-position: 0 -300px; }
+
+.socialMedia .media1 a:hover{ background-position: -50px 0; }
+.socialMedia .media2 a:hover{ background-position: -50px -50px; }
+.socialMedia .media3 a:hover{ background-position: -50px -100px; }
+.socialMedia .media4 a:hover{ background-position: -50px -150px; }
+.socialMedia .media5 a:hover{ background-position: -50px -200px; }
+.socialMedia .media6 a:hover{ background-position: -50px -250px; }
+.socialMedia .media7 a:hover{ background-position: -50px -300px; }
+
+/*------------- 內容區塊 1 --------------*/
+.area1{
+	background-color: #f5f5f5;
+	padding-top: 150px;
+	padding-bottom: 115px;
+	padding-left: 150px;
+	padding-right: 150px;
+
+	overflow: hidden;
+}
+
+.area1 ul{
+	float: left;
+}
+
+.area1 li{
+	margin-bottom: 1px;
+}
+
+.area1 li a{
+	display: block;
+	width: 110px;
+	height: 110px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	line-height: 110px;
+}
+
+.area1 li a:hover{
+	background-color: #ff8b38;
+}
+
+.area1-text{
+	float: left;
+	width: 480px;
+	margin-left: 95px;
+}
+
+.area1-text h3{
+	color: #333;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.area1-text p{
+	margin-bottom: 15px;
+}
+
+.area1-text a{
+	display: block;
+	width: 120px;
+	height: 45px;
+	background-color: #ff8b38;
+	color: white;
+	text-align: center;
+	line-height: 45px;
+
+	margin-top: 30px;
+}
+
+.area1-text a:hover{
+	background-color: #333;
+}
+
+.area1 img{
+	float: right;
+}
+
+/*------------- 內容區塊 2 --------------*/
+.area2{
+	padding-top: 150px;
+	padding-bottom: 115px;
+	padding-left: 150px;
+	padding-right: 150px;
+
+	overflow: hidden;
+}
+
+.area2 img{
+	float: left;
+}
+
+.area2-text{
+	float: right;
+	width: 450px;
+}
+
+.area2-text h3{
+	color: #333;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+.area2-text p{
+	margin-top: 30px;
+}
+
+.area2-text ul{
+	padding-top: 30px;
+}
+
+.area2-text li{
+	background-image: url(../img/icon01.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	padding-bottom: 20px;
+}
+
+.area2-text h4{
+	color: #333;
+}
+
+.area2-text li p{
+	margin-top: 0;
+}
+
+/*------------- 內容區塊 3 --------------*/
+.area3{
+	background-color: #f5f5f5;
+	padding-top: 150px;
+	padding-bottom: 115px;
+	padding-left: 150px;
+	padding-right: 150px;
+
+	overflow: hidden;
+}
+
+.area3-text{
+	float: left;
+	width: 480px;
+}
+
+.area3-text h3{
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.area3-text span{
+	margin-bottom: 30px;
+}
+
+.area3-text p{
+	padding-bottom: 15px;
+}
+
+.area3 img{
+	float: right;
+}
+
+/*------------- 內容區塊 4 --------------*/
+.area4{
+	padding-top: 150px;
+	padding-bottom: 115px;
+	padding-left: 150px;
+	padding-right: 150px;
+
+	overflow: hidden;
+}
+
+.area4 h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+	color: #333;
+}
+
+.area4 span{
+	margin: 30px auto;
+}
+
+.area4 p{
+	text-align: center;
+}
+
+.area4 ul{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.area4 li{
+	width: 320px;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.area4 img{
+	margin-bottom: 20px;
+}
+
+.area4 h3{
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.area4 p{}
+
+/*------------- 內容區塊 5 --------------*/
+.area5{
+	background-color: #f5f5f5;
+	padding-top: 150px;
+	padding-bottom: 115px;
+	padding-left: 150px;
+	padding-right: 150px;
+
+	overflow: hidden;
+}
+
+.area5 h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+	color: #333;
+}
+
+.area5 .orangeLine{
+	margin: 30px auto;
+}
+
+.area5 b{
+	display: block;
+	text-align: center;
+	font-weight: normal;
+}
+
+.area5 ul{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.area5 li{
+	width: 320px;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.area5 li p{
+	text-align: left;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+.area5 li img{
+	float: left;
+	margin-right: 20px;
+}
+
+.area5 li h3{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	padding-top: 10px;
+}
+
+.area5 li span{
+	display: block;
+	text-align: left;
+}
+
+/*------------- 下方圖片背景區 --------------*/
+.down{
+	/*background-image: url(../img/down_bg.png);*/
+	background-color: rgb(170, 144, 129);
+	height: 320px;
+	padding-top: 70px;
+	box-sizing: border-box;
+	border: 1px solid #000000;
+}
+
+.down h2{
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
+
+.down span{
+	display: block;
+	width: 64px;
+	height: 2px;
+	background-color: #fff;
+
+	margin: 20px auto;
+}
+
+.down p{
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.down a{
+	display: block;
+	width: 130px;
+	height: 38px;
+	border: 2px solid white;
+	text-align: center;
+	line-height: 38px;
+	color: white;
+	margin: 0 auto;
+}
+
+.down a:hover{
+	background-color: #fff;
+	color: #333;
+}
+
+/*------------- 頁尾 --------------*/
+.footer{
+	height: 100px;
+	background-color:rgb(170, 144, 129);
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+.footer ul{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.footer li{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.footer a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/social_media_icons_small.png);
+}
+
+.footer .media1 a{ background-position: 0 0; }
+.footer .media2 a{ background-position: 0 -25px; }
+.footer .media3 a{ background-position: 0 -50px; }
+.footer .media4 a{ background-position: 0 -75px; }
+.footer .media5 a{ background-position: 0 -100px; }
+.footer .media6 a{ background-position: 0 -125px; }
+.footer .media7 a{ background-position: 0 -150px; }
+
+.footer .media1 a:hover{ background-position: -25px 0; }
+.footer .media2 a:hover{ background-position: -25px -25px; }
+.footer .media3 a:hover{ background-position: -25px -50px; }
+.footer .media4 a:hover{ background-position: -25px -75px; }
+.footer .media5 a:hover{ background-position: -25px -100px; }
+.footer .media6 a:hover{ background-position: -25px -125px; }
+.footer .media7 a:hover{ background-position: -25px -150px; }
+
+.footer p{
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
